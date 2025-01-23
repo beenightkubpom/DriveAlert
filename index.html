@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Alert System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Driver Alert System</h1>
+        <button id="startDriving">Start Driving</button>
+        <p id="notification">Press "Start Driving" to begin tracking...</p>
+        <p id="location"></p>
+        <p id="speed"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Alert System</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- เพิ่ม Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Driver Alert System</h1>
+        <button id="startDriving">Start Driving</button>
+        <p id="notification">Press "Start Driving" to begin tracking...</p>
+        <p id="location"></p>
+        <p id="speed"></p>
+        
+        <!-- เพิ่ม div สำหรับแผนที่ -->
+        <div id="map" style="height: 400px;"></div>
+    </div>
+    <!-- เพิ่ม Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
